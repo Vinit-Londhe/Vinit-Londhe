@@ -1,168 +1,137 @@
+```
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│   vinit londhe — data engineer in the making               │
+│   london · queen mary · graduating sept 2026               │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+> *Most data problems aren't model problems. They're plumbing problems.*
+> *I work on the plumbing.*
+
+&nbsp;
+
+## about this page
+
+I'm Vinit. I'm finishing an MSc in Data Science at Queen Mary, with my own work pulled toward the data engineering side — distributed pipelines, event streams, lakehouse architectures, and the unglamorous infrastructure that everything else sits on top of.
+
+This profile is where I keep what I'm building. Some of it is coursework, some of it is side work, some of it is half-finished. I'd rather show real things in progress than polished things that don't exist.
+
+&nbsp;
+
+## the work, in three projects
+
+**`01`** &nbsp; **Cloud-native financial data platform** &nbsp; · &nbsp; *Python · Kafka · PySpark · LangChain*
+
+A transaction analytics platform with a RAG layer over the processed data. Real-time ingestion through Kafka. Distributed PySpark ETL across bronze/silver/gold. A natural-language interface for querying millions of records. The most complete thing I've built — and the one I'd most want to talk about in an interview.
+
+→ [`vinit-londhe/financial-data-platform`](https://github.com/Vinit-Londhe)
+
+&nbsp;
+
+**`02`** &nbsp; **Multiplayer game event analytics** &nbsp; · &nbsp; *Spark Structured Streaming · Kafka · SQL*
+
+Event analytics for simulated FPS matches. Real-time pipelines through Spark Structured Streaming. Batch ETL computing K/D ratios, weapon usage, and match-level stats. Documented architecture, reproducible pipelines, modular by design.
+
+→ [`vinit-londhe/game-event-analytics`](https://github.com/Vinit-Londhe)
+
+&nbsp;
+
+**`03`** &nbsp; **MSc dissertation** &nbsp; · &nbsp; *in progress — Jun → Sep 2026*
+
+My capstone. End-to-end data engineering, this time with proper orchestration (Airflow), transformation (dbt), and a serving layer. The first piece of work I'll have shipped that I'd call production-shaped.
+
+→ *Repo will be public on submission.*
+
+&nbsp;
+
+## what's actually in my toolbox
+
+```
+core              python · sql · java · bash
+data engines      apache spark · pyspark · spark structured streaming · kafka
+backend           flask · rest api design · sqlalchemy
+infra             aws · gcp · docker · linux · git
+data tooling      lakehouse (bronze/silver/gold) · pgvector · langchain
+```
+
+&nbsp;
+
+## what I'm learning right now
+
+I'd rather flag what I'm still picking up than pretend to know it all. As of mid-2026:
+
+```
+[in progress]   aws solutions architect associate (target: end of july)
+[in progress]   apache airflow — building dags into my dissertation
+[next up]       dbt fundamentals — for the transformation layer
+[after that]    aws data engineer associate (target: end of august)
+```
+
+&nbsp;
+
+## where I've worked
+
+```
+Mar 2024 → Jun 2024    Data Engineering Intern, early-stage analytics startup (remote)
+                       ETL pipelines on 500K+ records · python data processing
+                       AWS batch workloads · data validation frameworks
+
+Mar 2023 → Sep 2023    Software Engineer Intern, Corestance Technology (Pune)
+                       backend services · rest apis · sql optimisation
+                       log analysis · production debugging
+```
+
+&nbsp;
+
+## the numbers
+
 <div align="center">
 
-# Hi, I'm Vinit Londhe 👋
+![Vinit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Vinit-Londhe&show_icons=true&hide_border=true&hide_title=true&count_private=true&include_all_commits=true&theme=vue)
 
-### Data Engineer · Distributed Systems · Streaming · AI-Ready Infrastructure
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vinit-Londhe&layout=compact&hide_border=true&theme=vue&langs_count=8)
 
-*Turning data chaos into systems that scale.*
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinit-londhe613)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vinit.londhe.ds@gmail.com)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@vinit.londhe.ds)
-[![Location](https://img.shields.io/badge/London,_UK-000000?style=flat-square&logo=googlemaps&logoColor=white)](#)
+![Streak](https://github-readme-streak-stats.herokuapp.com?user=Vinit-Londhe&hide_border=true&theme=vue)
 
 </div>
 
----
+&nbsp;
 
-## About
+## the thing I'm actually optimising for
 
-MSc Data Science student at **Queen Mary University of London**, focused on the Data Engineering side of the field — distributed systems, streaming architectures, and the infrastructure that makes analytics and AI actually work in production.
+I'm not trying to collect every tool. I'm trying to get good at the small set of things that actually run modern data platforms — Spark, Kafka, Airflow, dbt, AWS, SQL — and to understand them deeply enough that I can debug them when they break at 2am.
 
-I'm drawn to the unglamorous problems: schema drift in event streams, late-arriving data in batch pipelines, the gap between a model that works in a notebook and one that runs reliably at scale. That's the work I want to keep doing.
+Right now that means finishing my degree well, shipping the dissertation properly, getting two AWS certs, and writing about the work as I go.
 
-🎓 **Graduating September 2026** · 🛂 **Eligible for UK Graduate Visa (PSW)** · 💼 **Open to Data Engineering roles**
+&nbsp;
 
----
+## currently looking for
 
-## What I'm working with
+A **Data Engineering role** in the UK starting September 2026 — junior positions, graduate schemes, or 6–12 month placements all welcome.
 
-**Languages**
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+I'm most interested in teams where data infrastructure is taken seriously: places building analytics platforms, ML systems, or real-time products where the pipeline being broken means the business is broken.
 
-**Data & Streaming**
-![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
-![Spark Streaming](https://img.shields.io/badge/Structured_Streaming-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+I'm eligible for the UK Graduate Visa (PSW) on graduation, with sponsorship a path forward after that.
 
-**Backend & APIs**
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![REST](https://img.shields.io/badge/REST_API-25A162?style=flat-square&logo=fastapi&logoColor=white)
+&nbsp;
 
-**Cloud & Infra**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+## ways to reach me
 
-**AI / Data Lake Tooling**
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Lakehouse-00ADD8?style=flat-square&logo=databricks&logoColor=white)
+```
+linkedin    → linkedin.com/in/vinit-londhe613
+email       → vinit.londhe.ds@gmail.com
+writing     → medium.com/@vinit.londhe.ds  (starting summer 2026)
+location    → london, uk
+```
+
+&nbsp;
 
 ---
-
-## Currently building with
-
-I'm honest about what I'm still learning — these are the tools I'm working with right now to level up for the kind of roles I want to land:
-
-- 🎯 **AWS Solutions Architect Associate** — studying through June/July
-- ⚙️ **Apache Airflow** — building DAGs into my dissertation pipeline
-- 🧱 **dbt** — for transformation layers in modern data stacks
-- 🚀 **AWS Data Engineer Associate** — targeting August
-
----
-
-## Featured Projects
-
-<table>
-<tr>
-<td width="33%" valign="top">
-
-### 💳 Cloud-Native Financial Data Platform
-
-End-to-end transaction analytics platform with a RAG-based natural-language interface over millions of records.
-
-**Stack:** Python · Kafka · PySpark · SQL · Lakehouse · LangChain
-
-**What it does:**
-- Real-time ingestion via Kafka
-- Distributed PySpark ETL across Bronze/Silver/Gold layers
-- 15+ data quality validation rules
-- RAG-based analytics assistant for natural-language queries
-
-[→ View repo](https://github.com/Vinit-Londhe)
-
-</td>
-<td width="33%" valign="top">
-
-### 🎮 Multiplayer Game Event Analytics
-
-Event analytics platform processing simulated FPS gameplay events through real-time and batch pipelines.
-
-**Stack:** Python · Kafka · Spark Structured Streaming · PySpark · SQL
-
-**What it does:**
-- Real-time pipelines with Spark Structured Streaming
-- 5+ event types (kills, damage, match activity)
-- Computes K/D ratios, weapon usage, match stats
-- Modular architecture with reproducible pipelines
-
-[→ View repo](https://github.com/Vinit-Londhe)
-
-</td>
-<td width="33%" valign="top">
-
-### 🎓 MSc Dissertation — Coming Sept 2026
-
-End-to-end data engineering project as the capstone of my MSc at Queen Mary.
-
-**Focus:** distributed data workflows, orchestration, production-grade pipelines
-
-**Planned stack:** PySpark · Airflow · dbt · AWS · Lakehouse architecture
-
-*Work in progress through summer 2026 — repo will be published with the final submission.*
-
-[→ Watch this space](https://github.com/Vinit-Londhe)
-
-</td>
-</tr>
-</table>
-
----
-
-## Experience snapshot
-
-**Data Engineering Intern** · Early-stage Analytics Startup *(Mar – Jun 2024)*
-> Built automated ETL pipelines processing 500K+ records per run. Cut manual data prep by 40% with modular Python pipelines. Shipped 10+ data validation checks. Executed batch workloads on AWS.
-
-**Software Engineer Intern** · Corestance Technology *(Mar – Sep 2023)*
-> Built backend services and REST APIs supporting 1K+ daily requests. Optimised SQL across 5+ relational tables (35% query improvement). Resolved 15+ production bugs through structured log analysis.
-
----
-
-## GitHub Stats
 
 <div align="center">
 
-![Vinit's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vinit-Londhe&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vinit-Londhe&layout=compact&theme=default&hide_border=true&langs_count=8)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Vinit-Londhe&theme=default&hide_border=true)
-
-</div>
-
----
-
-## Let's talk
-
-I'm actively looking for **Data Engineering roles** in the UK starting September 2026 — graduate schemes, junior DE roles, and placements all welcome. I'm especially interested in teams building data infrastructure for analytics platforms, ML systems, or real-time products.
-
-If you're hiring — or just want to chat about pipelines, streaming, or how to make AI infrastructure less fragile — my inbox is open.
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinit-londhe613)
-[![Email](https://img.shields.io/badge/Send_me_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinit.londhe.ds@gmail.com)
-
----
-
-*Thanks for stopping by — feel free to explore the repos below.*
+*Repos below. Most of them are works-in-progress. That's the point.*
 
 </div>
