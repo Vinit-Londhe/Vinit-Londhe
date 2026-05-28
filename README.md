@@ -136,17 +136,7 @@ End-to-end data engineering project as the capstone of my MSc at Queen Mary.
 
 ---
 
-## GitHub Stats
 
-<div align="center">
-
-![Vinit's GitHub stats](https://github-readme-stats.vercel.app/api?username=Vinit-Londhe&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Vinit-Londhe&layout=compact&theme=default&hide_border=true&langs_count=8)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Vinit-Londhe&theme=default&hide_border=true)
-
-</div>
 
 ---
 
