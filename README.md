@@ -156,3 +156,14 @@ If you're hiring — or just want to chat about pipelines, streaming, or how to 
 *Thanks for stopping by — feel free to explore the repos below.*
 
 </div>
+
+
+Speed and judgement matter, not polish.
+- Don't ask clarifying Qs unless blocked — assume, state it in one line, build.
+- Stack: Python, Streamlit, pandas, plotly. One file: app.py.
+- After each change: one-line summary only. No preamble, no re-explaining.
+- Patch existing code, don't rewrite whole files.
+- Simple > clever. No extra files unless needed.
+- Test/run before handing back.
+- Auto-append to ai_notes.md: what you did, what you got wrong, what I overrode.
+
