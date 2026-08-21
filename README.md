@@ -2,11 +2,11 @@
 
 # Hi, I'm Vinit Londhe 👋
 
-### Data Engineer · Distributed Systems · Streaming · AI-Ready Infrastructure
+### Data Engineer · Palantir Foundry/AIP · AI Agent Grounding · Distributed Systems
 
-*Turning data chaos into systems that scale.*
+*Building the context layer between enterprise data and AI agents.*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinit-londhe613)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinitlondhe613)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vinit.londhe.ds@gmail.com)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@vinit.londhe.ds)
 [![Location](https://img.shields.io/badge/London,_UK-000000?style=flat-square&logo=googlemaps&logoColor=white)](#)
@@ -17,11 +17,11 @@
 
 ## About
 
-MSc Data Science student at **Queen Mary University of London**, focused on the Data Engineering side of the field — distributed systems, streaming architectures, and the infrastructure that makes analytics and AI actually work in production.
+MSc Data Science student at **Queen Mary University of London**, focused on data engineering for AI systems: ontologies and pipelines that ground AI agents in real enterprise data instead of letting them guess.
 
-I'm drawn to the unglamorous problems: schema drift in event streams, late-arriving data in batch pipelines, the gap between a model that works in a notebook and one that runs reliably at scale. That's the work I want to keep doing.
+I'm drawn to the unglamorous problems: schema drift in event streams, late-arriving data in batch pipelines, and the gap between an agent that sounds right in a demo and one whose answers actually trace back to a source. That's the work I want to keep doing, on Palantir Foundry or any modern data stack.
 
-🎓 **Graduating September 2026** · 🛂 **Eligible for UK Graduate Visa (PSW)** · 💼 **Open to Data Engineering roles**
+🎓 **Graduating September 2026** · 🛂 **Eligible for UK Graduate Visa (PSW)** · 💼 **Open to Data Engineer, Forward Deployed Engineer, and AI/Agentic Engineer roles**
 
 ---
 
@@ -37,7 +37,23 @@ I'm drawn to the unglamorous problems: schema drift in event streams, late-arriv
 ![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Redpanda](https://img.shields.io/badge/Redpanda-EB1701?style=flat-square&logo=redpanda&logoColor=white)
 ![Spark Streaming](https://img.shields.io/badge/Structured_Streaming-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+
+**Palantir**
+![Palantir Foundry](https://img.shields.io/badge/Palantir_Foundry-000000?style=flat-square&logo=palantir&logoColor=white)
+![Palantir AIP](https://img.shields.io/badge/Palantir_AIP-000000?style=flat-square&logo=palantir&logoColor=white)
+
+**AI / Data Lake Tooling**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Lakehouse-00ADD8?style=flat-square&logo=databricks&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+
+**AI Coding Assistants**
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white)
 
 **Backend & APIs**
 ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
@@ -50,75 +66,80 @@ I'm drawn to the unglamorous problems: schema drift in event streams, late-arriv
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**AI / Data Lake Tooling**
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Delta Lake](https://img.shields.io/badge/Lakehouse-00ADD8?style=flat-square&logo=databricks&logoColor=white)
-
----
-
-## Currently building with
-
-I'm honest about what I'm still learning — these are the tools I'm working with right now to level up for the kind of roles I want to land:
-
-- 🎯 **AWS Solutions Architect Associate** — studying through June/July
-- ⚙️ **Apache Airflow** — building DAGs into my dissertation pipeline
-- 🧱 **dbt** — for transformation layers in modern data stacks
-- 🚀 **AWS Data Engineer Associate** — targeting August
-
 ---
 
 ## Featured Projects
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 💳 Cloud-Native Financial Data Platform
+### 🖥️ GPU Infrastructure Monitoring
 
-End-to-end transaction analytics platform with a RAG-based natural-language interface over millions of records.
+Infrastructure monitoring workflow on Palantir Foundry, grounding an LLM in live GPU cloud operations data.
 
-**Stack:** Python · Kafka · PySpark · SQL · Lakehouse · LangChain
+**Stack:** Palantir Foundry · AIP Logic · Chatbot Studio
 
 **What it does:**
-- Real-time ingestion via Kafka
-- Distributed PySpark ETL across Bronze/Silver/Gold layers
-- 15+ data quality validation rules
-- RAG-based analytics assistant for natural-language queries
+- Five-object ontology modelling GPU cloud operations
+- AIP Logic functions grounding an LLM in live operational data
+- Chatbot Studio front end for natural-language queries
+- Built solo in under 72 hours
 
 [→ View repo](https://github.com/Vinit-Londhe)
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
+
+### 📊 Investment Sequencing Platform
+
+Investment sequencing platform on Palantir Foundry for a constrained portfolio-scheduling problem.
+
+**Stack:** Palantir Foundry · AIP Logic · CP-SAT · PySpark
+
+**What it does:**
+- Nine-object ontology across companies, activities, and dependencies
+- AIP Logic extraction that cites the source document and page for every dependency pulled from a PDF
+- CP-SAT solver scheduling investments over a 10-year horizon under budget and dependency constraints
+- Workshop app with what-if scenarios and write-back through Actions
+
+[→ View repo](https://github.com/Vinit-Londhe)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ SentinelLake — MSc Dissertation
+
+Streaming fraud detection platform with a tool-augmented LLM triage agent.
+
+**Stack:** Redpanda · Spark Structured Streaming · Delta Lake · LangChain · Gemini
+
+**What it does:**
+- Bronze/Silver/Gold lakehouse over 6.3M+ transaction records
+- LLM agent that calls tools for account history and peer stats instead of working off a static feature vector
+- Cut alert volume 77.9% to 97.4% against a rules-only baseline
+- Every decision traceable back to what the agent actually looked up
+
+[→ View repo](https://github.com/Vinit-Londhe)
+
+</td>
+<td width="50%" valign="top">
 
 ### 🎮 Multiplayer Game Event Analytics
 
 Event analytics platform processing simulated FPS gameplay events through real-time and batch pipelines.
 
-**Stack:** Python · Kafka · Spark Structured Streaming · PySpark · SQL
+**Stack:** Kafka · Spark Structured Streaming · PySpark · SQL
 
 **What it does:**
 - Real-time pipelines with Spark Structured Streaming
 - 5+ event types (kills, damage, match activity)
-- Computes K/D ratios, weapon usage, match stats
-- Modular architecture with reproducible pipelines
+- Computes K/D ratios, weapon usage, and match stats
+- Modular, reproducible pipeline architecture
 
 [→ View repo](https://github.com/Vinit-Londhe)
-
-</td>
-<td width="33%" valign="top">
-
-### 🎓 MSc Dissertation — Coming Sept 2026
-
-End-to-end data engineering project as the capstone of my MSc at Queen Mary.
-
-**Focus:** distributed data workflows, orchestration, production-grade pipelines
-
-**Planned stack:** PySpark · Airflow · dbt · AWS · Lakehouse architecture
-
-*Work in progress through summer 2026 — repo will be published with the final submission.*
-
-[→ Watch this space](https://github.com/Vinit-Londhe)
 
 </td>
 </tr>
@@ -136,19 +157,189 @@ End-to-end data engineering project as the capstone of my MSc at Queen Mary.
 
 ---
 
+## Let's talk
 
+I'm actively looking for **Data Engineer, Forward Deployed Engineer, and AI/Agentic Engineer roles** in the UK starting September 2026, graduate schemes, junior roles, and placements all welcome. I'm especially interested in teams building the layer that connects enterprise data to AI agents: ontologies, grounded retrieval, or agent tooling on top of a real data platform.
+
+If you're hiring, or just want to talk about pipelines, Palantir, or how to keep an AI agent from making things up, my inbox is open.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinitlondhe613)
+[![Email](https://img.shields.io/badge/Send_me_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinit.londhe.ds@gmail.com)
+
+---
+
+*Thanks for stopping by — feel free to explore the repos below.*
+
+</div><div align="center">
+
+# Hi, I'm Vinit Londhe 👋
+
+### Data Engineer · Palantir Foundry/AIP · AI Agent Grounding · Distributed Systems
+
+*Building the context layer between enterprise data and AI agents.*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinitlondhe613)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:vinit.londhe.ds@gmail.com)
+[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white)](https://medium.com/@vinit.londhe.ds)
+[![Location](https://img.shields.io/badge/London,_UK-000000?style=flat-square&logo=googlemaps&logoColor=white)](#)
+
+</div>
+
+---
+
+## About
+
+MSc Data Science student at **Queen Mary University of London**, focused on data engineering for AI systems: ontologies and pipelines that ground AI agents in real enterprise data instead of letting them guess.
+
+I'm drawn to the unglamorous problems: schema drift in event streams, late-arriving data in batch pipelines, and the gap between an agent that sounds right in a demo and one whose answers actually trace back to a source. That's the work I want to keep doing, on Palantir Foundry or any modern data stack.
+
+🎓 **Graduating September 2026** · 🛂 **Eligible for UK Graduate Visa (PSW)** · 💼 **Open to Data Engineer, Forward Deployed Engineer, and AI/Agentic Engineer roles**
+
+---
+
+## What I'm working with
+
+**Languages**
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
+**Data & Streaming**
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Redpanda](https://img.shields.io/badge/Redpanda-EB1701?style=flat-square&logo=redpanda&logoColor=white)
+![Spark Streaming](https://img.shields.io/badge/Structured_Streaming-E25A1C?style=flat-square&logo=apachespark&logoColor=white)
+
+**Palantir**
+![Palantir Foundry](https://img.shields.io/badge/Palantir_Foundry-000000?style=flat-square&logo=palantir&logoColor=white)
+![Palantir AIP](https://img.shields.io/badge/Palantir_AIP-000000?style=flat-square&logo=palantir&logoColor=white)
+
+**AI / Data Lake Tooling**
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white)
+![Delta Lake](https://img.shields.io/badge/Lakehouse-00ADD8?style=flat-square&logo=databricks&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
+
+**AI Coding Assistants**
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=white)
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
+![Codex](https://img.shields.io/badge/Codex-412991?style=flat-square&logo=openai&logoColor=white)
+
+**Backend & APIs**
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-25A162?style=flat-square&logo=fastapi&logoColor=white)
+
+**Cloud & Infra**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+## Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🖥️ GPU Infrastructure Monitoring
+
+Infrastructure monitoring workflow on Palantir Foundry, grounding an LLM in live GPU cloud operations data.
+
+**Stack:** Palantir Foundry · AIP Logic · Chatbot Studio
+
+**What it does:**
+- Five-object ontology modelling GPU cloud operations
+- AIP Logic functions grounding an LLM in live operational data
+- Chatbot Studio front end for natural-language queries
+- Built solo in under 72 hours
+
+[→ View repo](https://github.com/Vinit-Londhe)
+
+</td>
+<td width="50%" valign="top">
+
+### 📊 Investment Sequencing Platform
+
+Investment sequencing platform on Palantir Foundry for a constrained portfolio-scheduling problem.
+
+**Stack:** Palantir Foundry · AIP Logic · CP-SAT · PySpark
+
+**What it does:**
+- Nine-object ontology across companies, activities, and dependencies
+- AIP Logic extraction that cites the source document and page for every dependency pulled from a PDF
+- CP-SAT solver scheduling investments over a 10-year horizon under budget and dependency constraints
+- Workshop app with what-if scenarios and write-back through Actions
+
+[→ View repo](https://github.com/Vinit-Londhe)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛡️ SentinelLake — MSc Dissertation
+
+Streaming fraud detection platform with a tool-augmented LLM triage agent.
+
+**Stack:** Redpanda · Spark Structured Streaming · Delta Lake · LangChain · Gemini
+
+**What it does:**
+- Bronze/Silver/Gold lakehouse over 6.3M+ transaction records
+- LLM agent that calls tools for account history and peer stats instead of working off a static feature vector
+- Cut alert volume 77.9% to 97.4% against a rules-only baseline
+- Every decision traceable back to what the agent actually looked up
+
+[→ View repo](https://github.com/Vinit-Londhe)
+
+</td>
+<td width="50%" valign="top">
+
+### 🎮 Multiplayer Game Event Analytics
+
+Event analytics platform processing simulated FPS gameplay events through real-time and batch pipelines.
+
+**Stack:** Kafka · Spark Structured Streaming · PySpark · SQL
+
+**What it does:**
+- Real-time pipelines with Spark Structured Streaming
+- 5+ event types (kills, damage, match activity)
+- Computes K/D ratios, weapon usage, and match stats
+- Modular, reproducible pipeline architecture
+
+[→ View repo](https://github.com/Vinit-Londhe)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Experience snapshot
+
+**Data Engineering Intern** · Early-stage Analytics Startup *(Mar – Jun 2024)*
+> Built automated ETL pipelines processing 500K+ records per run. Cut manual data prep by 40% with modular Python pipelines. Shipped 10+ data validation checks. Executed batch workloads on AWS.
+
+**Software Engineer Intern** · Corestance Technology *(Mar – Sep 2023)*
+> Built backend services and REST APIs supporting 1K+ daily requests. Optimised SQL across 5+ relational tables (35% query improvement). Resolved 15+ production bugs through structured log analysis.
 
 ---
 
 ## Let's talk
 
-I'm actively looking for **Data Engineering roles** in the UK starting September 2026 — graduate schemes, junior DE roles, and placements all welcome. I'm especially interested in teams building data infrastructure for analytics platforms, ML systems, or real-time products.
+I'm actively looking for **Data Engineer, Forward Deployed Engineer, and AI/Agentic Engineer roles** in the UK starting September 2026, graduate schemes, junior roles, and placements all welcome. I'm especially interested in teams building the layer that connects enterprise data to AI agents: ontologies, grounded retrieval, or agent tooling on top of a real data platform.
 
-If you're hiring — or just want to chat about pipelines, streaming, or how to make AI infrastructure less fragile — my inbox is open.
+If you're hiring, or just want to talk about pipelines, Palantir, or how to keep an AI agent from making things up, my inbox is open.
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinit-londhe613)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vinitlondhe613)
 [![Email](https://img.shields.io/badge/Send_me_an_email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinit.londhe.ds@gmail.com)
 
 ---
@@ -156,14 +347,3 @@ If you're hiring — or just want to chat about pipelines, streaming, or how to 
 *Thanks for stopping by — feel free to explore the repos below.*
 
 </div>
-
-
-Speed and judgement matter, not polish.
-- Don't ask clarifying Qs unless blocked — assume, state it in one line, build.
-- Stack: Python, Streamlit, pandas, plotly. One file: app.py.
-- After each change: one-line summary only. No preamble, no re-explaining.
-- Patch existing code, don't rewrite whole files.
-- Simple > clever. No extra files unless needed.
-- Test/run before handing back.
-- Auto-append to ai_notes.md: what you did, what you got wrong, what I overrode.
-
